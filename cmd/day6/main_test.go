@@ -39,20 +39,6 @@ func TestCountAfterDays(t *testing.T) {
 			t.Errorf("expected 5 but was %d", ct)
 		}
 	})
-
-
-	//t.Run("Can spawn new fish", func(t *testing.T) {
-	//	ct := countAfterDays(3, 4)
-	//	if ct != 2 {
-	//		t.Errorf("expected 2 but was %d", ct)
-	//	}
-	//})
-	//t.Run("Children can spawn new fish", func(t *testing.T) {
-	//	ct := countAfterDays(3, 15)
-	//	if ct != 4 {
-	//		t.Errorf("expected 4 but was %d", ct)
-	//	}
-	//})
 }
 
 func TestPart1(t *testing.T) {
@@ -76,27 +62,3 @@ func TestPart1(t *testing.T) {
 		}
 	})
 }
-
-//0		3					1
-//1		2					0
-//2		1					6,8
-//3		0					5,7
-//4		6,8				4,6
-//5		5,7				3,5
-//6		4,6				2,4
-//7		3,5				1,3
-//8		2,4				0,2
-//9		1,3				6,1,8
-//10	0,2				5,0,7
-//11	6,1,8				4,8,6,8
-//12	5,0,7				3,7,5,7
-//13	4,8,6,8			2,6,4,6
-//14	3,7,5,7			1,5,3,5
-//15	2,6,4,6			0,4,2,4
-//16	1,5,3,5			6,3,1,3,8
-//17	0,4,2,4			5,2,0,2,7
-//18	6,3,1,3,8			4,1,8,1,6,8
-
-//18 days
-//1:6, 2:5, 3:5:, 4:4, 5:4
-//3,4,3,1,2 -> 5+4+5+6+5 = 25
